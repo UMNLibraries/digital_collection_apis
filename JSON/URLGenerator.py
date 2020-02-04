@@ -29,32 +29,7 @@ def generateURL(filters, keys, keyword):
 
 
 
-def getFilters():
-    return [["Collection", "collection_name_s"],
-            ["Type", "types"],
-            ["Format", "format"],
-            ["Date", "date_created_ss"],
-            ["Subject", "subject_ss"],
-            ["Contribution Organization", "contributing_organization_name_s"]]
-
-
-
 def wrapper():
-
-    filters = []
-    keys = []
-    keyword = ""
-    
-    flag = intput("Do you want to search by keyword? ('y' or 'Y')")
-    
-    if flag == "y" or flag == "Y":
-        keyword = input("Please enter the keyword you want to search: ")
-    
-    while True:
-        
-    
-    printf(generateURL(filters, keys, keyword))
-    
     print(generateURL(["creator_ss", "types"], ["Detroit Publishing Co.", "Still Image"], "1147. P.Z.-Flüelen"))
 
     print(" ")
