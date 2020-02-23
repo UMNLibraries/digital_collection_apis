@@ -1,6 +1,6 @@
 # API-Documentation
 
-This is a documentation that introduces researchers some useful APIs to download resources from [UMedia](https://umedia.lib.umn.edu/), which provides open access to digitized materials from across the University of Minnesota. This documentation has three parts: 
+This is a documentation that introduces researchers some useful APIs to download resources from [UMedia](https://umedia.lib.umn.edu/), which provides open access to digitized materials from across the University of Minnesota. The objective of this API documentation is to make researchers be able to easily download a large amount of items from the online resource sites to their local computer. This documentation has three parts: 
 
 * Formatting the URLs for downloading texts. 
 
