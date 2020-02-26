@@ -1,11 +1,9 @@
-# API-Documentation
+# Digital Collection API Documentation
 
-This is a documentation that introduces researchers some useful APIs to download resources from [UMedia](https://umedia.lib.umn.edu/), which provides open access to digitized materials from across the University of Minnesota. The objective of this API documentation is to make researchers be able to easily download a large amount of items from the online resource sites to their local computer. This documentation has three parts: 
+This documentation introduces researchers to some useful APIs to access and download resources from [UMedia](https://umedia.lib.umn.edu/). UMedia provides open access to digitized materials from across the University of Minnesota. The objective of the documentation is to help researchers programmatically download items from UMedia to their local computer. The documentation has three parts: 
 
-* Formatting the URLs for downloading texts. 
+1. [Formatting URLs to download text and metadata \(JSON\)](https://www.lib.umn.edu/digital/apis#json) 
+2. [Formatting URLs to download still images and other digital objects \(IIIF\)](https://www.lib.umn.edu/digital/apis#iiif) 
+3. An [iPython notebook](https://github.com/UMNLibraries/digital_collection_apis/blob/master/API_Documentation.ipynb) to illustrate how to download texts and objects using the URLs formatted in the previous steps. This notebook introduces three useful Python modules: json, shutil, and requests. It also introduces data structures used to store digital objects and the basic export of content to your local machine.
 
-* Formatting the URLs for downloading still images. 
-
-* A Jupyter file to illustrate the use of APIs to download the texts or objects based on the URLs formatted in the previous steps. This file introduces three useful modules, json, shutil, and requests. It also briefly talks about the data structures used to stroe the downloaded objects and the basic I/O mechanism to export the downloaded content into the local machine. 
-
-Each part is accompanied with several examples to help readers to understand the contents. The API documentation for udc drum is still being developed. 
+Each section is accompanied by examples to help readers understand the contents. API documentation for UDC/DRUM is still being developed. 
